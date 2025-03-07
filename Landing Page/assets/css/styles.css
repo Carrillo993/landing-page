@@ -1,0 +1,83 @@
+.container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-image: url(../imgs/Fondo_Espacial.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body {
+    background-color: black;
+}
+
+.titulos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 50px;
+    gap: 0px;
+}
+
+@font-face {
+    font-family: 'MiFuenteTitulo';
+    src: url('../fonts/The_Foregen_Rough_One.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'MiFuenteTexto';
+    src: url('../fonts/The_Foregen_Regular.otf') format('truetype');
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'MiFuenteTitulo';
+}
+
+p, span, div {
+    font-family: 'MiFuenteTexto';
+}
+
+section {
+    max-width: 40%;
+    margin: auto;  
+    padding: 20px; 
+}
+
+article {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+    border: 2px solid white;
+}
+
+article img {
+    max-width: 32%;
+    height: auto;
+    background-color: white;
+}
+  
+article p {
+    margin: auto;
+    padding: 5%;
+    background-color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-image: url(../imgs/Fondo_Espacial.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+}
